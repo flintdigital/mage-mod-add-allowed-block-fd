@@ -2,20 +2,19 @@
 <config>
   <modules>
     <FlintDigital_AddAllowedBlockType>
-      <version>0.1.0</version>
+      <version>1.0.0</version>
     </FlintDigital_AddAllowedBlockType>
   </modules>
   <global>
-    <helpers>
-      <addallowedblocktype>
-        <class>FlintDigital_AddAllowedBlockType_Helper</class>
-      </addallowedblocktype>
-    </helpers>
     <resources>
         <flintdigital_addallowedblocktype>
             <setup>
                 <module>FlintDigital_AddAllowedBlockType</module>
+                <class>FlintDigital_AddAllowedBlockType_Model_Resource_Eav_Mysql4_Setup</class>
             </setup>
+            <connection>
+                <use>core_setup</use>
+            </connection>
         </flintdigital_addallowedblocktype>
     </resources>
   </global>
