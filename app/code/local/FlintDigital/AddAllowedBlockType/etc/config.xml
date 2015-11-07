@@ -16,7 +16,7 @@
             <setup>
                 <module>FlintDigital_AddAllowedBlockType</module>
             </setup>
-        </atwix_addallowed>
+        </flintdigital_addallowedblocktype>
     </resources>
   </global>
 </config>
