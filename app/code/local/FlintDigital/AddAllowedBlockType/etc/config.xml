@@ -11,9 +11,7 @@
             <setup>
                 <module>FlintDigital_AddAllowedBlockType</module>
             </setup>
-            <connection>
-                <use>core_setup</use>
-            </connection>
+
         </addallowedblocktype_setup>
     </resources>
   </global>

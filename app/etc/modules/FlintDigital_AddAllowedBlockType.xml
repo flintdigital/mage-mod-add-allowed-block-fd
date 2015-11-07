@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <config>
-  <modules>
-    <FlintDigital_AddAllowedBlockType>
-      <active>true</active>
-      <codePool>local</codePool>
-      <version>0.1.0</version>
-    </FlintDigital_AddAllowedBlockType>
-  </modules>
+ 	<modules>
+		<FlintDigital_AddAllowedBlockType>
+			<active>true</active>
+			<codePool>local</codePool>
+			<version>1.0.0</version>
+		</FlintDigital_AddAllowedBlockType>
+	</modules>
 </config>
