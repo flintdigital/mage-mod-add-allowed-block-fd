@@ -6,13 +6,17 @@
     </FlintDigital_AddAllowedBlockType>
   </modules>
   <global>
-    <resources>
-        <addallowedblocktype_setup>
+	  <helpers>
+		  <addallowedblocktype>
+			  <class>FlintDigital_AddAllowedBlockType_Helper</class>
+			  </addallowedblocktype>
+			  </helpers>
+			  <resources>
+        <flintdigital_addallowedblocktype>
             <setup>
                 <module>FlintDigital_AddAllowedBlockType</module>
             </setup>
-
-        </addallowedblocktype_setup>
+        </flintdigital_addallowedblocktype>
     </resources>
   </global>
 </config>
