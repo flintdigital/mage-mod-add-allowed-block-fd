@@ -7,15 +7,14 @@
   </modules>
   <global>
     <resources>
-        <flintdigital_addallowedblocktype>
+        <addallowedblocktype_setup>
             <setup>
                 <module>FlintDigital_AddAllowedBlockType</module>
-                <class>FlintDigital_AddAllowedBlockType_Model_Resource_Eav_Mysql4_Setup</class>
             </setup>
             <connection>
                 <use>core_setup</use>
             </connection>
-        </flintdigital_addallowedblocktype>
+        </addallowedblocktype_setup>
     </resources>
   </global>
 </config>
